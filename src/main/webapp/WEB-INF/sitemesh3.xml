@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+    <mapping path="/admin/*" decorator="admin.jsp" />
+    <mapping path="/login" excludingdecorator="true" />
+    <mapping path="/register" excludingdecorator="true" />
+    <mapping path="/*" decorator="user.jsp" />
+</sitemesh>
